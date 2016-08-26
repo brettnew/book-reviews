@@ -5,6 +5,9 @@ export default Ember.Route.extend({
     return this.store.findRecord('book', params.book_id);
   },
   actions: {
+    transitionShelf(){
+      this.transitionTo('bookshelf');
+    },
     saveReview(params) {
       if (params.rating === '*'){
         params.rating = 1;

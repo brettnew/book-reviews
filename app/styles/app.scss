@@ -1,1 +1,49 @@
 @import "ember-power-select";
+
+.book-div {
+  padding: 15px;
+  img {
+    width: 280px;
+    height: 80%;
+  }
+}
+
+.hero-unit {
+  background-image:url('https://media2.wnyc.org/i/620/372/c/80/photologue/photos/library___.jpg');
+  background-size: length;
+  background-color: black;
+  height: 25vh;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.individual-book {
+  margin: auto;
+  max-width: 80%;
+  img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 100%;
+    h2 {
+      text-align: center;
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
+
+ul {
+  list-style: none;
+}
