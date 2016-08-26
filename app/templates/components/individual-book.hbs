@@ -1,0 +1,8 @@
+<div class="individual-book">
+  <img src="{{book.image}}" alt="Book Cover"/>
+  <h2>{{book.name}} | {{book.author}}</h2>
+  <h4>Genre: {{book.category}}</h4>
+  <p>{{book.summary}}</p>
+</div>
+
+{{add-review book=book saveReview="saveReview"}}
