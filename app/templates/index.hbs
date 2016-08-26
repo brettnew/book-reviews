@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>Welcome to Book Reviews!</h1>
+<h3>Featured Books:</h3>
+{{#each model as |book|}}
+<div class="col-md-4 book-div">
+  {{book-tile book=book}}
+</div>
+{{/each}}
