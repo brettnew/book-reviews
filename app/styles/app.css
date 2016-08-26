@@ -45,3 +45,7 @@
 .individual-book p {
   text-align: justify;
 }
+
+ul {
+  list-style: none;
+}
