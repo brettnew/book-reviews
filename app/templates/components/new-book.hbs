@@ -1,0 +1,37 @@
+{{#if showNewForm}}
+<hr>
+<h3>Add a New Book</h3>
+<form>
+  <div class="form-group">
+    <label for="name">Title</label>
+    {{input value=name id="name" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input value=author id="author" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="summary">Summary</label>
+    {{textarea value=summary id="summary" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="image">Image URL</label>
+    {{input value=image id="image" class="form-control"}}
+  </div>
+  <div class="form-group">
+  <label for="category">Category</label>
+  {{#power-select
+    selected=category
+    options=categories
+    onchange=(action (mut category))
+    as |item|
+  }}
+  {{item}}
+  {{/power-select}}
+  </div>
+  <button class="btn" {{action 'save'}}>Add Book</button>
+</form>
+<br>
+{{else}}
+<button class="btn" {{action 'showNewForm'}}>Add a New Book</button>
+{{/if}}
