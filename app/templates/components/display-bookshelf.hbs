@@ -1,4 +1,3 @@
-<h1>Your Bookshelf:</h1>
 {{#if userBookshelf.items}}
   {{#each userBookshelf.items as |book|}}
     <h4>{{#link-to 'book' book.id}}<img src= {{book.image}} alt="book icon" class="book-icon"/>{{/link-to}} {{book.name}} | {{book.author}}</h4>

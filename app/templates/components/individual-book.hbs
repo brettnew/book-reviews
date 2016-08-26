@@ -4,6 +4,11 @@
   <h4>Average Rating: {{star-rating ratingAverage}}</h4>
   <h4>Genre: {{book.category}}</h4>
   <p>{{book.summary}}</p>
+  {{#if onBookshelf}}
+  <button class="btn" {{action 'removeFromShelf' book}}>Remove from Bookshelf</button>
+  {{else}}
+  <button class="btn" {{action 'addToShelf' book}}>Add to Bookshelf</button>
+  {{/if}}
   <hr>
   {{#if book.reviews}}
   <h3>Reviews of this book:</h3>
