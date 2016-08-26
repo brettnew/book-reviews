@@ -1,0 +1,38 @@
+{"books": [{
+  "name": "Big Little Lies",
+  "author": "Liane Moriarty",
+  "summary": "Madeline is a force to be reckoned with. She’s funny and biting, passionate, she remembers everything and forgives no one. Her ex-husband and his yogi new wife have moved into her beloved beachside community, and their daughter is in the same kindergarten class as Madeline’s youngest (how is this possible?). And to top it all off, Madeline’s teenage daughter seems to be choosing Madeline’s ex-husband over her. (How. Is. This. Possible?).",
+  "image": "http://4.bp.blogspot.com/-ketjpi5D8QM/U8mQ1Xa-oPI/AAAAAAAABpg/TgkA_ePeOEc/s1600/biglittlelies.jpg",
+  "category": "Humor"
+}, {
+  "name": "Career of Evil",
+  "author": "Robert Galbraith",
+  "summary": "When a mysterious package is delivered to Robin Ellacott, she is horrified to discover that it contains a woman’s severed leg.",
+  "image": "http://www.telegraph.co.uk/content/dam/books/2015-10/Oct15/galbraith/career-evil-galbraith-cover-xlarge.jpg",
+  "category": "Mystery"
+}, {
+  "name": "Fates and Furies",
+  "author": "Lauren Groff",
+  "summary": "Every story has two sides. Every relationship has two perspectives. And sometimes, it turns out, the key to a great marriage is not its truths but its secrets. At the core of this rich, expansive, layered novel, Lauren Groff presents the story of one such marriage over the course of twenty-four years.",
+  "image": "https://bitsnbooks.files.wordpress.com/2015/09/fates-and-furies-cover-image.jpg",
+  "category": "Fiction"
+}, {
+  "name": "Eleanor and Park",
+  "author": "Rainbow Rowell",
+  "summary": "Eleanor... Red hair, wrong clothes. Standing behind him until he turns his head. Lying beside him until he wakes up. Making everyone else seem drabber and flatter and never good enough...Eleanor.",
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71LkLmxqgjL.jpg",
+  "category": "Young Adult"
+}, {
+  "name": "Eligible",
+  "author": "Curtis Sittenfeld",
+  "summary": "This version of the Bennet family—and Mr. Darcy—is one that you have and haven’t met before: Liz is a magazine writer in her late thirties who, like her yoga instructor older sister, Jane, lives in New York City. When their father has a health scare, they return to their childhood home in Cincinnati to help—and discover that the sprawling Tudor they grew up in is crumbling and the family is in disarray.",
+  "image": "http://cos.h-cdn.co/assets/16/16/768x1167/gallery-1461269722-eligible.jpg",
+  "category": "Romance"
+}, {
+  "name": "The Goldfinch",
+  "author": "Donna Tartt",
+  "summary": "It begins with a boy. Theo Decker, a thirteen-year-old New Yorker, miraculously survives an accident that kills his mother. Abandoned by his father, Theo is taken in by the family of a wealthy friend. Bewildered by his strange new home on Park Avenue, disturbed by schoolmates who don't know how to talk to him, and tormented above all by his unbearable longing for his mother, he clings to one thing that reminds him of her: a small, mysteriously captivating painting that ultimately draws Theo into the underworld of art.",
+  "image": "https://lovelace-media.imgix.net/uploads/140/e467f4f0-e058-0131-bfe3-0eb233c768fb.jpg?",
+  "category": "Fiction"
+  }]
+}
