@@ -3,6 +3,18 @@
   <h2>{{book.name}} | {{book.author}}</h2>
   <h4>Genre: {{book.category}}</h4>
   <p>{{book.summary}}</p>
+  <hr>
+  {{#if book.reviews}}
+  <h3>Reviews of this book:</h3>
+  <br>
+  <ul>
+    {{#each book.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </ul>
+  {{else}}
+  <p>There are no reviews for this book yet. Add one below!</p>
+  {{/if}}
+  {{add-review book=book saveReview="saveReview"}}
+  <br>
 </div>
-
-{{add-review book=book saveReview="saveReview"}}
