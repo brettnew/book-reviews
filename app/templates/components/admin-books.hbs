@@ -1,0 +1,4 @@
+<li><span class="glyphicon glyphicon-pencil" {{action 'editBook'}} ></span> <span class="glyphicon glyphicon-trash" {{action 'delete' book}}></span> {{book.name}} | {{book.author}}</li>
+{{#if editBook}}
+{{edit-book goat=goat edit="edit"}}
+{{/if}}

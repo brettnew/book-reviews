@@ -1,0 +1,34 @@
+<hr>
+<h3>Edit Book Information</h3>
+<form>
+  <div class="form-group">
+    <label for="name">Title</label>
+    {{input placeholder=book.name value=name id="name" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input placeholder=book.author value=author id="author" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="summary">Summary</label>
+    {{textarea placeholder=book.summary value=summary id="summary" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="image">Image URL</label>
+    {{input placeholder=book.image value=image id="image" class="form-control"}}
+  </div>
+  <div class="form-group">
+  <label for="category">Category</label>
+    {{#power-select
+      selected=category
+      options=categories
+      onchange=(action (mut category))
+      as |item|
+    }}
+    {{item}}
+    {{/power-select}}
+  </div>
+  <button class="btn" {{action 'edit' book}}>Add Book</button>
+</form>
+<br>
+<hr>
